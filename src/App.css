@@ -31,3 +31,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.nav-bar {
+  background: rgb(11, 139, 194);
+  background: linear-gradient(131deg, rgba(11, 139, 194, 1) 0%, rgba(63, 183, 232, 1) 100%);
+  height: 100vh;
+  min-width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1px 1px 0 rgba(48, 48, 49, 0.14), 0 2px 1px -1px rgba(48, 48, 49, 0.12), 0 1px 3px 0 rgba(48, 48, 49, 0.2);
+  position: fixed;
+}
+.nav-bar ul{
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.nav-bar ul li{
+  padding: 8px;
+  margin:16px 0;
+  border-radius: 16px;
+background-color: #0b8bc2;
+  text-align: center;
+}
+
+.nav-bar svg{
+  color: white;
+}
+
+.formRegisterMovies{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+
+}
